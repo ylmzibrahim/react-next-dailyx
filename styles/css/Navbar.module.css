@@ -1,0 +1,44 @@
+.navbar {
+  @apply bg-slate-200 shadow-lg p-3 flex flex-row justify-between items-center z-50;
+}
+
+.links {
+  @apply flex justify-start items-center space-x-2 text-black font-semibold;
+}
+
+.logo_with_text {
+  @apply flex flex-row items-center space-x-2 cursor-pointer;
+}
+
+.logo {
+  @apply flex items-center justify-center relative w-10 h-10 rounded-full shadow-md overflow-hidden;
+}
+
+.text_logo_bg {
+  @apply w-20 h-1.5 flex items-center justify-center bg-gradient-to-r from-sky-100/5 via-sky-200 to-sky-500/50 rounded-full;
+}
+
+.text_logo {
+  @apply font-shadowsintolight text-sky-900 text-2xl shadow-xl rounded-md;
+}
+
+.sign_texts {
+  @apply flex items-center space-x-4 font-mono text-sky-900;
+}
+
+.logged_in_icons {
+  @apply flex flex-row items-center space-x-2;
+}
+
+.profile_photo {
+  @apply flex items-center justify-center relative w-10 h-10 rounded-full shadow-md cursor-pointer overflow-hidden p-1;
+}
+
+.user_icon {
+  @apply w-10 fill-sky-800 hover:fill-sky-900;
+}
+
+.menu_icon {
+  @apply flex items-center justify-center w-10 h-10 rounded-md shadow-md cursor-pointer;
+}
+

@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "SHADOWS_INTO_LIGHT";
+  src: url("../fonts/ShadowsIntoLight-Regular.ttf");
+}
+
+html,
+body {
+  @apply p-0 m-0 font-sans;
+}
+
+li {
+  @apply cursor-pointer list-none;
+}

@@ -1,0 +1,29 @@
+.text_logo_container {
+  @apply h-40 overflow-hidden flex items-center justify-center;
+}
+
+.text_logo_bg {
+  @apply w-80 h-5 flex items-center justify-center bg-gradient-to-r from-sky-100/5 via-sky-200 to-sky-500/50 rounded-full;
+}
+
+.text_logo {
+  @apply font-shadowsintolight text-sky-900 text-8xl shadow-xl rounded-xl;
+}
+
+.input_container {
+  @apply flex flex-col bg-sky-100 shadow-lg border-2 border-sky-100 py-1 px-3 w-80 rounded-xl text-sky-900 outline-sky-900 mx-auto;
+}
+
+.input_label {
+  @apply text-xs text-slate-400 mb-1;
+}
+
+.input_text {
+  @apply bg-sky-100 outline-none;
+}
+
+.button_container {
+  @apply bg-sky-900 border-2 border-sky-900 hover:bg-sky-700 hover:border-sky-700 transition-all shadow-lg p-3 w-80 rounded-xl text-white !mt-6 mx-auto text-center cursor-pointer;
+}
+
+
